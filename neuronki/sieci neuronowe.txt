@@ -1,0 +1,33 @@
+SNN LAB 2012 INSTRUKCJA 1A
+
+
+sieci neuronowe - wzorcem by³ mózg ludzki
+
+sieæ zawsze dzia³a schematycznie chocia¿by by³ jeden perceptron
+ 
+sieæ przetwarza wejœcie na wyjœcie
+
+na konkretne pytania otrzymujemy konkretn¹ odpowiedŸ
+
+zaprogramowaæ jedn¹ cegie³kê (jeden perceptron)
+
+funkcja aktywacji to dowolna funkcja jak¹ mo¿na wymyœliæ (najprostrza to y=x)
+
+uczenie jest nadzworowane (porównujemy czy sieæ dobrze odpowiedzia³a)
+
+uczenie mo¿na skoñczyæ dopiero jak osi¹gniemy satysfakcjonuj¹cy wynik, mozna przeprusaæ te same dane wielokrotnie
+
+jak obiektywnie oceniæ czy sieæ siê nadaje? trzeba uczyæ jedn¹ seri¹ danych, a testowaæ drug¹ o tej samej tematyce i poziomie
+
+gdy testujemy pude³ko jest zamkniête i sprawdamy przy sta³ych wagach jak wysz³o
+
+po przepuszczeniu danych mamy procentowy wsakŸnik trafnoœci
+
+
+1. losowaæ punkty o wspó³rzêdnych x i y z etykiet¹ zale¿noœci do klasy 0 albo 1
+2. zbudowaæ sieæ. Wejœcie przemno¿yæ przez wektor wag i zsumowaæ
+3. Napisaæ funkcjê aktywacji która zwraca 0 albo 1
+4. w pêtli wrzucamy wejœcie, sumujemy, sprawdzamy fuknckjê aktywacji, sprawdzamy wyniki, korygujemy wektor sieci
+5. po ka¿dym przejœciu przez zbiór treningowy sprawdzamy poziom odpowiedzi
+ to by³o uczenie
+6. po uczeniu zrobiæ to samo na zbiorze testowym, bez tej pêtli
