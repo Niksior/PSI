@@ -1,0 +1,4 @@
+﻿  gen.cpp
+c:\users\niksior\documents\git\psi\genetyczny\genetyczny\gen.cpp(12): warning C4101: "tmp": lokalna zmienna, do której nie istnieje odwołanie
+c:\users\niksior\documents\git\psi\genetyczny\genetyczny\gen.cpp(27): warning C4244: "+=": konwersja z "double" do "int", możliwa utrata danych
+  genetyczny.vcxproj -> C:\Users\Niksior\Documents\git\PSI\genetyczny\x64\Debug\genetyczny.exe
